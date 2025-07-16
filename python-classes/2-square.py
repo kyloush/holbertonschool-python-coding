@@ -15,4 +15,4 @@ class Square:
     '''make the size value public'''
 
     def area(self):
-        return self ** self
+        return self.__size * self.__size
