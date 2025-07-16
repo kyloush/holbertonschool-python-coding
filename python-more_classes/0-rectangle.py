@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-'''create a rectangle'''
+"""This module defines a Rectangle class with width and height properties."""
 
 
-class rectangle:
-    '''with a width'''
+class Rectangle:
+    """A rectangle defined by width and height."""
 
     def __init__(self, width=0, height=0):
         self.__width = width
