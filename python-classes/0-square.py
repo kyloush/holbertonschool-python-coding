@@ -1,4 +1,4 @@
 #!/usr/bin/python3
 class square:
-    def __init__(size):
-        size = None
+    def __init__(self, size):
+        self.__size = size
